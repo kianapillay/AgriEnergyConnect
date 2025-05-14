@@ -1,0 +1,60 @@
+@model IEnumerable<AgriEnergyApp.Models.Product>
+
+<h2 class="text-center orange-heading fw-bold my-4">All Products</h2>
+
+<form method="get" asp-action="AllProducts" class="row g-2 align-items-end mb-4">
+    <div class="col-md-3">
+        <label class="form-label">Search by farmer Id:</label>
+        <input type="text" name="farmerId" value="@(Context.Request.Query["farmerId"])" class="form-control" />
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">Category:</label>
+        <select name="category" class="form-control">
+            <option value="">All</option>
+            @foreach (var cat in ViewBag.Categories as List<string>)
+            {
+                <option value="@cat">@cat</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">Start Date:</label>
+        <input type="date" name="startDate" class="form-control" />
+    </div>
+
+    <div class="col-md-2">
+        <label class="form-label">End Date:</label>
+        <input type="date" name="endDate" class="form-control" />
+    </div>
+
+    <div class="col-md-2 d-flex">
+        <button type="submit" class="btn btn-primary align-self-end w-100">Filter</button>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Production Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+                <td>@product.Category</td>
+                <td>@product.Description</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.ProductionDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

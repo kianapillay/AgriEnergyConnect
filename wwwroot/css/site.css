@@ -1,0 +1,292 @@
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+/* Import a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f8f3;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #023020 !important; 
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: white !important; 
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+    color: #FFA500 !important;
+}
+
+/* Button styling */
+.btn:not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-secondary):not(.btn-light):not(.btn-dark) {
+    background-color: #014425;
+    color: white;
+    border: none;
+}
+
+.btn:not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-secondary):not(.btn-light):not(.btn-dark):hover {
+    background-color: #026c3b;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e69500;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    color: white;
+}
+
+.orange-heading {
+    color: #FFA500;
+}
+
+a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc8400; 
+}
+
+.section-bg {
+    background-color: #012f26; 
+    color: #f0f0f0; 
+}
+.login-box {
+    background-color: rgba(1, 47, 38, 0.3);     border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-box {
+    background-color: rgba(1, 47, 38, 0.3); 
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 4rem;
+
+}
+
+/* For Login Page */
+.login-background {
+    background-image: url('/images/register-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+/* For Register Page */
+.register-background {
+    background-image: url('/images/register-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+/* === Home Page Styling === */
+.hero-section {
+    background: linear-gradient(rgba(0, 48, 32, 0.8), rgba(0, 48, 32, 0.7)), url('/images/home-bg.jpg') center/cover no-repeat;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFA500;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    line-height: 1.7;
+    color: #f8f8f8;
+}
+
+.hero-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+    background-color: #e69500;
+    transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.feature-box {
+    background-color: #e6f4ea; 
+    border-left: 6px solid #4CAF50; 
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.feature-box h4 {
+    font-weight: 700;
+    color: #2e7d32; 
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    color: #555;
+    font-size: 16px;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-hero {
+    background: linear-gradient(rgba(0, 48, 32, 0.8), rgba(0, 48, 32, 0.7)), url('/images/about-bg.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px; /* Adjust spacing as needed */
+
+}
+
+.about-hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-hero-text p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+.mission-vision h2 {
+    color: #2e7d32;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.values-section {
+    background-color: #f1f8e9;
+    padding: 60px 20px;
+}
+
+.value-box {
+    background-color: #ffffff;
+    border-left: 6px solid #66bb6a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.value-box h4 {
+    font-weight: 700;
+    color: #388e3c;
+}
+.about-hero-text h1,
+.about-hero-text p {
+    color: #FFA500;
+}
+.login-box label,
+.register-box label {
+    color: white;
+}
