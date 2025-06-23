@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OE+GrK9Zwbk2M/tRM2a+bgQ5QonbVuNBLMIvQCLfL1I=",
+  "Hash": "+aTFYlnfGPbOg/PlFTiPY4+P2xdweC5kqpg1moJhysI=",
   "Source": "AgriEnergyApp",
   "BasePath": "_content/AgriEnergyApp",
   "Mode": "Default",
@@ -1004,12 +1004,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\AgriEnergyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0hnvb28wca.gz",
+      "Identity": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0m4z7ujun3.gz",
       "SourceId": "AgriEnergyApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AgriEnergyApp",
-      "RelativePath": "css/site#[.{fingerprint=0hnvb28wca}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=0m4z7ujun3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "C:\\Users\\USER\\AgriEnergyApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iw86b6oyfy",
-      "Integrity": "kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU=",
+      "Fingerprint": "dk01lks0xj",
+      "Integrity": "44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\AgriEnergyApp\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0hnvb28wca",
-      "Integrity": "lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=",
+      "Fingerprint": "0m4z7ujun3",
+      "Integrity": "GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3429,13 +3429,13 @@
       ]
     },
     {
-      "Route": "css/site.0hnvb28wca.css",
-      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0hnvb28wca.gz",
+      "Route": "css/site.0m4z7ujun3.css",
+      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0m4z7ujun3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000580046404"
+          "Quality": "0.000632911392"
         }
       ],
       "ResponseHeaders": [
@@ -3445,15 +3445,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1723"
+          "Value": "1579"
         },
         {
           "Name": "ETag",
-          "Value": "\"kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU=\""
+          "Value": "\"44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3473,13 +3473,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\""
+          "Value": "W/\"GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hnvb28wca"
+          "Value": "0m4z7ujun3"
         },
         {
           "Name": "label",
@@ -3487,12 +3487,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="
+          "Value": "sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="
         }
       ]
     },
     {
-      "Route": "css/site.0hnvb28wca.css",
+      "Route": "css/site.0m4z7ujun3.css",
       "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3502,7 +3502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6060"
+          "Value": "5793"
         },
         {
           "Name": "Content-Type",
@@ -3510,11 +3510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\""
+          "Value": "\"GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3524,7 +3524,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hnvb28wca"
+          "Value": "0m4z7ujun3"
         },
         {
           "Name": "label",
@@ -3532,13 +3532,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="
+          "Value": "sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="
         }
       ]
     },
     {
-      "Route": "css/site.0hnvb28wca.css.gz",
-      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0hnvb28wca.gz",
+      "Route": "css/site.0m4z7ujun3.css.gz",
+      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0m4z7ujun3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3547,7 +3547,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1723"
+          "Value": "1579"
         },
         {
           "Name": "Content-Type",
@@ -3555,11 +3555,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU=\""
+          "Value": "\"44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3577,7 +3577,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hnvb28wca"
+          "Value": "0m4z7ujun3"
         },
         {
           "Name": "label",
@@ -3585,18 +3585,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU="
+          "Value": "sha256-44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0hnvb28wca.gz",
+      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0m4z7ujun3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000580046404"
+          "Quality": "0.000632911392"
         }
       ],
       "ResponseHeaders": [
@@ -3606,15 +3606,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1723"
+          "Value": "1579"
         },
         {
           "Name": "ETag",
-          "Value": "\"kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU=\""
+          "Value": "\"44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3634,13 +3634,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\""
+          "Value": "W/\"GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="
+          "Value": "sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="
         }
       ]
     },
@@ -3655,7 +3655,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6060"
+          "Value": "5793"
         },
         {
           "Name": "Content-Type",
@@ -3663,11 +3663,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\""
+          "Value": "\"GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3677,13 +3677,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="
+          "Value": "sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0hnvb28wca.gz",
+      "AssetFile": "C:\\Users\\USER\\AgriEnergyApp\\obj\\Debug\\net9.0\\compressed\\q5rpkzinq8-0m4z7ujun3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3692,7 +3692,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1723"
+          "Value": "1579"
         },
         {
           "Name": "Content-Type",
@@ -3700,11 +3700,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU=\""
+          "Value": "\"44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 13:40:45 GMT"
+          "Value": "Wed, 14 May 2025 14:22:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3722,7 +3722,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kjWj8FZL2a5AeyOxsEhiFe8hCAW3tmDTyPWUDoOv9PU="
+          "Value": "sha256-44ENpuoBCP+kBwFWM7flZJxFSsfQlXpDIgPvEYvirLw="
         }
       ]
     },

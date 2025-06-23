@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using AgriEnergyApp.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddSession();
 
 var app = builder.Build();
+
+// Seed admin user
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    SeedAdminUser(context);
+}
 
 // Add use session
 app.UseSession();
@@ -48,3 +56,26 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+void SeedAdminUser(ApplicationDbContext context)
+{
+    var existingAdmin = context.Users.FirstOrDefault(u => u.Role == "Admin");
+
+    if (existingAdmin == null)
+    {
+        var passwordHasher = new PasswordHasher<User>();
+
+        var adminUser = new User
+        {
+            FirstName = "Admin", 
+            Surname = "Admin",
+            Email = "admin@gmail.com",
+            Role = "Admin"
+        };
+
+        adminUser.Password = passwordHasher.HashPassword(adminUser, "Admin123"); 
+
+        context.Users.Add(adminUser);
+        context.SaveChanges();
+    }
+}

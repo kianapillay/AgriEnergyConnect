@@ -226,4 +226,5 @@ C:\Users\USER\AgriEnergyApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runt
 C:\Users\USER\AgriEnergyApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\USER\AgriEnergyApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\USER\AgriEnergyApp\obj\Debug\net9.0\AgriEner.ECAF88FB.Up2Date
-C:\Users\USER\AgriEnergyApp\obj\Debug\net9.0\compressed\q5rpkzinq8-0hnvb28wca.gz
+C:\Users\USER\AgriEnergyApp\obj\Debug\net9.0\AgriEnergyApp.sourcelink.json
+C:\Users\USER\AgriEnergyApp\obj\Debug\net9.0\compressed\q5rpkzinq8-0m4z7ujun3.gz

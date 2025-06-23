@@ -60,6 +60,13 @@
                                 <a class="nav-link text-dark" asp-controller="Product" asp-action="AllProducts">All Products</a>
                             </li>
                         }
+
+                        @if (userRole == "Admin")
+                        {
+                             <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="User" asp-action="CreateEmployee">Create Employee</a>
+                             </li>
+                        }
                     </ul>
 
                     <ul class="navbar-nav ms-auto">
@@ -79,9 +86,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="User" asp-action="Login">Login</a>
                             </li>
-                            <li class="nav-item">
+                            /*<li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="User" asp-action="Register">Register</a>
-                            </li>
+                            </li>*/
                         }
                     </ul>
                 </div>

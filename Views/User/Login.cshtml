@@ -2,7 +2,6 @@
 @{
     ViewData["Title"] = "Login";
     ViewData["BodyClass"] = "login-background";
-
 }
 
 <div class="d-flex justify-content-center align-items-center min-vh-100 login-background">
@@ -10,16 +9,27 @@
         <h2 class="orange-heading fw-bold mb-4 text-center">Login</h2>
 
         <form asp-action="Login" method="post">
+        <div asp-validation-summary="All" class="text-danger text-center mb-3"></div>
+
             <div class="form-group mb-3">
                 <label asp-for="Email" class="form-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
-            <div class="form-group mb-4">
+            <div class="form-group mb-3">
                 <label asp-for="Password" class="form-label"></label>
                 <input asp-for="Password" class="form-control" type="password" />
                 <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Role" class="form-label">Login As</label>
+                <select asp-for="Role" class="form-control">
+                    <option value="Farmer">Farmer</option>
+                    <option value="Employee">Employee</option>
+                    <option value="Admin">Admin</option>
+                </select>
             </div>
 
             <div class="form-group text-center">

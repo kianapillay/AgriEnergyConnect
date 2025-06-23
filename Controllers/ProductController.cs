@@ -21,8 +21,11 @@ public class ProductController : Controller
         {
             return RedirectToAction("AccessDenied", "User");
         }
+        
+        ViewBag.CategoryList = new List<string> { "Vegetables", "Fruits", "Dairy", "Grains", "Herbs", "Livestock", "Other" };
 
-        return View();
+        return View(new Product()); 
+
     }
 
     // GET: Product/Index 
@@ -56,6 +59,8 @@ public class ProductController : Controller
             return RedirectToAction(nameof(Index));
         }
 
+        ViewBag.CategoryList = new List<string> { "Vegetables", "Fruits", "Dairy", "Grains", "Herbs", "Livestock", "Other" };
+
         return View(product);
     }
 
@@ -67,7 +72,7 @@ public class ProductController : Controller
         {
             return NotFound();
         }
-
+        ViewBag.CategoryList = new List<string> { "Vegetables", "Fruits", "Dairy", "Grains", "Herbs", "Livestock", "Other" };
         return View(product);
     }
 
@@ -101,7 +106,7 @@ public class ProductController : Controller
                 ModelState.AddModelError("", "Error updating product: " + ex.Message);
             }
         }
-
+        ViewBag.CategoryList = new List<string> { "Vegetables", "Fruits", "Dairy", "Grains", "Herbs", "Livestock","Other" };
         return View(product);
     }
 
@@ -133,7 +138,7 @@ public class ProductController : Controller
     }
 
     // GET: Product/AllProducts
-    public IActionResult AllProducts(DateTime? startDate, DateTime? endDate, string category, int? farmerId)
+    public IActionResult AllProducts(DateTime? startDate, DateTime? endDate, string category, string FirstName)
     {
         var role = HttpContext.Session.GetString("UserRole");
 
@@ -142,11 +147,14 @@ public class ProductController : Controller
             return RedirectToAction("AccessDenied", "User");
         }
 
-        var products = _context.Products.AsQueryable();
+       var products = _context.Products
+        .Include(p => p.Farmer) 
+        .AsQueryable();
 
-        if (farmerId.HasValue)
+        if (!string.IsNullOrEmpty(FirstName))
         {
-            products = products.Where(p => p.FarmerId == farmerId.Value);
+            products = products.Where(p =>
+            (p.Farmer.FirstName + " " + p.Farmer.Surname).Contains(FirstName));
         }
 
         if (!string.IsNullOrEmpty(category))

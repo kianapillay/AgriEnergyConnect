@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pumdxb1kdj"},{"Name":"integrity","Value":"sha256-8ZFBFuOiedxY2KzMidolBeGnFL7CPpv1FtILzt8BRO0="},{"Name":"label","Value":"_content/AgriEnergyApp/AgriEnergyApp.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228ZFBFuOiedxY2KzMidolBeGnFL7CPpv1FtILzt8BRO0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 08:55:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AgriEnergyApp/css/site.0hnvb28wca.css">
+    <StaticWebAssetEndpoint Include="_content/AgriEnergyApp/css/site.0m4z7ujun3.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0hnvb28wca"},{"Name":"integrity","Value":"sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="},{"Name":"label","Value":"_content/AgriEnergyApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6060"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:40:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0m4z7ujun3"},{"Name":"integrity","Value":"sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="},{"Name":"label","Value":"_content/AgriEnergyApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5793"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 14:22:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AgriEnergyApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6060"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lDu6DgLVnpNXYaNVoOQ/tJPPCvZ/ClSeFxrw1uL5qSE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:40:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5793"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GFFISw8zs8A0jc63ihw758UhmUnLzuzW0imUPCEGtCE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 14:22:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AgriEnergyApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
